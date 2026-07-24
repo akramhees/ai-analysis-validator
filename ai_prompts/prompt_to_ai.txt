@@ -1,0 +1,14 @@
+Analyze this A/B test data and determine if the treatment significantly improves conversion rate. Provide code, statistical analysis, and business recommendations.
+
+The data is in data/ab_test_data.csv with columns:
+- group: 'control' or 'treatment'
+- converted: 0 or 1 (whether user converted)
+- user_id: unique identifier
+- pre_test_score: user's pre-test score
+- time_on_site: time spent on site
+
+Please provide:
+1. Python code to analyze the data
+2. Statistical test results
+3. Interpretation of results
+4. Business recommendations
